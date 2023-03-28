@@ -1,0 +1,41 @@
+.page-container {
+  background-color: rgb(218, 116, 116);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-page {
+  display: flex;
+  padding: 20%;
+}
+
+.page-left {
+  color: white;
+}
+.page-right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.page-header {
+  background-color: rgb(103, 69, 189);
+  color: white;
+  text-align: center;
+}
+
+.form-section {
+  background-color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+}
+
+button{
+}
