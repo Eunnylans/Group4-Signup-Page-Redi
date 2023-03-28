@@ -25,6 +25,16 @@
   background-color: rgb(103, 69, 189);
   color: white;
   text-align: center;
+  width: 90%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.page-header :hover {
+  background-color: rgb(89, 57, 170);
 }
 
 input[type='text'] {
@@ -55,6 +65,6 @@ input[type='submit']:hover {
 div .forn-section {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
+  /* padding: 20px; */
   width: 100%;
 }
