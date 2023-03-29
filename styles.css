@@ -38,7 +38,8 @@
   background-color: rgb(89, 57, 170);
 }
 
-div .forn-section {
+.page-header-span {
+  font-weight: bolder;
 }
 
 form {
