@@ -7,7 +7,7 @@
 
 .main-page {
   display: flex;
-  padding: 3%;
+  padding: 2%;
 }
 
 .page-left {
@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 7.5% 12% 7.5% 7.5%;
+  padding: 7.5% 10% 7.5% 7.5%;
 }
 
 .page-header {
@@ -79,4 +79,8 @@ input[type='submit']:hover {
 
 input:focus-within {
   outline: 1px auto rgb(218, 116, 116);
+}
+
+.terms {
+  color: rgb(218, 116, 116);
 }
