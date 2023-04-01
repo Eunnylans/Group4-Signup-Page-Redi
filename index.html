@@ -6,53 +6,71 @@
     <title>Intro component with sign up form</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="page-container">
-    <main class="main-page">
-      <div class="page-left">
-        <h1>
-          Learn to code by <br />
-          watching others
-        </h1>
+
+  <body>
+    <main>
+      <section id="text">
+        <h1>Learn to code by<br />watching others</h1>
         <p>
-          See how experienced developers solve problems in real-time <br />
-          Watching scripted tutorials is great, but understanding how <br />
-          developers think is invaluable.
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
         </p>
-      </div>
-      <div class="page-right">
-        <p class="page-header">
-          <span class="page-header-span">Try it free 7 days</span> then $20/mo.
-          thereafter
-        </p>
-        <div class="form-section">
-          <form action="">
-            <input
-              type="text"
-              id="fname"
-              name="firstname"
-              placeholder="First Name"
-            />
-            <input
-              type="text"
-              id="lname"
-              name="lastname"
-              placeholder="Last Name"
-            />
-            <input type="text" id="email" name="email" placeholder="Email" />
-            <input
-              type="text"
-              id="lname"
-              name="password"
-              placeholder="Password"
-            />
-            <input type="submit" value="CLAIM YOUR FREE TRIAL" />
-            <p>
-              By clicking the button, you are agreeing to our
-              <span class="terms"> <strong>Terms and Services</strong></span>
-            </p>
-          </form>
+      </section>
+      <div id="form-area">
+        <div class="trial">
+          Try it free 7 days <span>then $20/mo. therafter</span>
         </div>
+        <form action="#" id="form">
+          <div class="infield">
+            <input type="text" placeholder="First Name" />
+            <img
+              src="./images/icon-error.svg"
+              alt="icon-error"
+              class="error-image"
+            />
+            <p class="error-text">First Name cannot be empty</p>
+          </div>
+          <div class="infield">
+            <input type="text" placeholder="Last Name" />
+            <img
+              src="./images/icon-error.svg"
+              alt="icon-error"
+              class="error-image"
+            />
+            <p class="error-text">Last Name cannot be empty</p>
+          </div>
+          <div class="infield">
+            <input
+              type="text"
+              placeholder="Email Address"
+              class="input-email"
+            />
+            <img
+              src="./images/icon-error.svg"
+              alt="icon-error"
+              class="error-image"
+            />
+            <p class="error-text">Looks like this is not an email</p>
+            <p class="error-email">Email cannot be empty</p>
+          </div>
+          <div class="infield">
+            <input type="password" placeholder="Password" />
+            <img
+              src="./images/icon-error.svg"
+              alt="icon-error"
+              class="error-image"
+            />
+            <p class="error-text">Password cannot be empty</p>
+          </div>
+          <button type="submit">Claim your free trial</button>
+          <p id="terms">
+            By clicking the button, you are agreeing to our
+            <a href="#">Terms and Services</a>
+          </p>
+        </form>
       </div>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
