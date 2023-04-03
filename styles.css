@@ -127,14 +127,14 @@ form button {
 form button:hover {
   opacity: 0.8;
 }
-#terms {
+.terms-services {
   font-size: 0.7rem;
   font-weight: 500;
   color: hsl(246, 25%, 77%);
   margin: 1rem;
   text-align: center;
 }
-#terms a {
+.terms-services a {
   font-weight: 700;
   text-decoration: none;
   color: rgb(218, 116, 116);
