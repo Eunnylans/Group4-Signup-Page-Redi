@@ -32,13 +32,13 @@
   margin: 1rem 0;
 }
 .trial {
+  background: rgb(89, 57, 170);
   margin: 2rem 0;
   padding: 1rem 3rem;
-  background: rgb(89, 57, 170);
+  border-radius: 0.5rem;
   box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.247);
   font-weight: 600;
   text-align: center;
-  border-radius: 0.5rem;
 }
 .trial span {
   font-weight: 400;
@@ -112,6 +112,9 @@ input:focus {
   display: block;
 }
 form button {
+  background: #6fd574;
+  box-shadow: 0 5px 0 0 #a6eda9;
+  color: white;
   width: 100%;
   height: 3.3rem;
   border: none;
@@ -119,9 +122,6 @@ form button {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: white;
-  background: #6fd574;
-  box-shadow: 0 5px 0 0 #a6eda9;
   cursor: pointer;
 }
 form button:hover {
