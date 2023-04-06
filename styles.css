@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 .main-body {
   background: url(./images/bg-intro-mobile.png) no-repeat, rgb(218, 116, 116);
