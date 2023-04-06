@@ -5,7 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 .main-body {
-  background: url(./images/bg-intro-mobile.png) no-repeat, rgb(218, 116, 116);
+  background: url(./images/bg-intro-des.png) no-repeat, hsl(0, 100%, 74%);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -16,7 +16,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 3rem;
 }
 .main-page {
   margin: 4rem 1.5rem 0 1.5rem;
@@ -28,15 +27,17 @@
 }
 .text-section p {
   margin: 1rem 0;
+  font-size: 1rem;
 }
 .trial {
-  background: rgb(89, 57, 170);
+  background: hsl(248, 32%, 49%);
   margin: 2rem 0;
-  padding: 1rem 3rem;
+  padding: 1.2rem 3rem;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.247);
   font-weight: 600;
   text-align: center;
+  font-size: 1rem;
 }
 .trial span {
   font-weight: 400;
@@ -45,28 +46,28 @@
 form {
   background: white;
   box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.247);
-  padding: 1.5rem;
+  padding: 1rem 1.5rem;
   border-radius: 0.5rem;
   margin-bottom: 3rem;
+  font-size: 2.5rem;
 }
 .infield {
   position: relative;
-  margin-bottom: 1rem;
 }
 input {
   width: 100%;
   height: 3rem;
   border: 1px solid rgba(128, 128, 128, 0.425);
   border-radius: 0.3rem;
-  padding-left: 1rem;
+  padding-left: 1.3rem;
 }
 .infield.error input,
 .infield.empty-mail input {
-  border: 1px solid rgb(218, 116, 116);
+  border: 1px solid hsl(0, 100%, 74%);
 }
 input:active,
 input:focus {
-  border: 1px solid rgb(89, 57, 170);
+  border: 1px solid hsl(248, 32%, 49%);
   outline: none;
 }
 ::placeholder {
@@ -75,7 +76,7 @@ input:focus {
 }
 .infield.error ::placeholder,
 .infield.empty-mail ::placeholder {
-  color: rgb(218, 116, 116);
+  color: hsl(0, 100%, 74%);
 }
 .error-image {
   display: none;
@@ -89,7 +90,7 @@ input:focus {
 }
 .error-text {
   display: none;
-  color: rgb(218, 116, 116);
+  color: hsl(0, 100%, 74%);
   font-size: 0.7rem;
   font-style: italic;
   text-align: right;
@@ -100,7 +101,7 @@ input:focus {
 }
 .error-email {
   display: none;
-  color: rgb(218, 116, 116);
+  color: hsl(0, 100%, 74%);
   font-size: 0.7rem;
   font-style: italic;
   text-align: right;
@@ -110,7 +111,7 @@ input:focus {
   display: block;
 }
 form button {
-  background: #6fd574;
+  background: hsl(154, 59%, 51%);
   box-shadow: 0 5px 0 0 #a6eda9;
   color: white;
   width: 100%;
@@ -135,11 +136,11 @@ form button:hover {
 .terms-services a {
   font-weight: 700;
   text-decoration: none;
-  color: rgb(218, 116, 116);
+  color: hsl(0, 100%, 74%);
 }
 @media (min-width: 750px) {
   .main-body {
-    background: url(./images/bg-intro-desktop.png) no-repeat, rgb(218, 116, 116);
+    background: url(./images/bg-intro-desktop.png) no-repeat, hsl(0, 100%, 74%);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -162,14 +163,18 @@ form button:hover {
     padding: 1.5rem 3rem;
   }
   form {
-    padding: 2.5rem;
+    padding: 1.5rem 2.5rem;
   }
   .infield {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.3rem;
+  }
+
+  input {
+    padding-left: 1.5rem;
   }
 }
 @media (min-width: 769px) {
   .text-section h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
