@@ -18,6 +18,7 @@ const emailExample = document.getElementById('email-example');
 
 // Event Listener
 formEl.addEventListener('submit', e => {
+  e.preventDefault();
   checkInputs();
 });
 
